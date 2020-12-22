@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://flow-arjun.herokuapp.com/flows",
   headers: {
     "Content-type": "application/json"
   }
